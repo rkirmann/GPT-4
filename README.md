@@ -22,6 +22,7 @@ http://localhost:8080
 
 ### Database
 This project is using H2 database from a file in server/target
+
 Initial data is loaded from import.sql file
 
 To clear database, simply delete the spring-boot-h2-db.mv.db file
