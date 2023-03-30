@@ -8,12 +8,18 @@ import {HttpClientModule} from "@angular/common/http";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MainComponent } from './component/main/main.component';
+import { HeaderComponent } from './component/header/header.component';
+import { ImageComponent } from './component/image/image.component';
+import { ImageVariationComponent } from './component/image-variation/image-variation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UiMessagesComponent,
     MainComponent,
+    HeaderComponent,
+    ImageComponent,
+    ImageVariationComponent,
   ],
     imports: [
         BrowserModule,
