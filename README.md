@@ -1,7 +1,7 @@
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bfwg/angular-spring-jwt-starter/blob/master/LICENSE)
 
 
-# Angular Spring Boot Sectors
+# Angular Spring Boot full stack app
 
 
 ## Quick start
