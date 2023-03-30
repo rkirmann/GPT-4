@@ -5,15 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {UiMessagesComponent} from "./component/ui-messages/ui-messages.component";
 import {HttpClientModule} from "@angular/common/http";
-import { SectorsComponent } from './component/sectors/sectors.component';
 import {ReactiveFormsModule} from "@angular/forms";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MainComponent } from './component/main/main.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UiMessagesComponent,
-    SectorsComponent,
+    MainComponent,
   ],
   imports: [
     BrowserModule,
