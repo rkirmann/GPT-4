@@ -1,4 +1,4 @@
-package com.sectors.test;
+package com.gpt;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;

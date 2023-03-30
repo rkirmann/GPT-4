@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-lg-6">
+      <form [formGroup]="openAiForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="message">Enter message:</label>
+          <textarea id="message" class="form-control" rows="5" formControlName="message"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="temperature">Enter temperature:</label>
+          <input type="number" id="temperature" class="form-control" formControlName="temperature">
+        </div>
+        <button class="btn btn-primary" type="submit">
+          <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1" role="status" aria-hidden="true"></span>
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+  <br>
+  <div class="row justify-content-center" *ngIf="response">
+    <div class="col-lg-6">
+      <div class="card">
+        <div class="card-body">
+          <pre class="card-text">{{ response }}</pre>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
